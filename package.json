@@ -1,0 +1,24 @@
+{
+  "name": "tele_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "tinyurl": "^1.1.7",
+    "youtube-dl-exec": "^2.4.3",
+    "ytdl-core": "^4.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
